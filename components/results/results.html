@@ -1,0 +1,43 @@
+<!-- Results Filter -->
+<div class="map-filter-wrap">
+     <a data-activates="dropdown" dropdown>
+          <div class="filter-selector waves-effect">
+               <i class="material-icons"> filter_list </i>
+               <div class="filter-label"> {{ sortSelect }} </div>
+          </div>
+     </a>
+     <!-- Dropdown Structure -->
+     <ul id="dropdown" class='dropdown-content'>
+          <li><a ng-click="sort('all (newest)')"> all (newest) </a></li>
+          <li><a ng-click="sort('all (reverse)')"> all (reverse) </a></li>
+          <li class="divider"></li>
+          <li><a ng-click="sort('upcoming')"> upcoming </a></li>
+          <li><a ng-click="sort('past')"> past </a></li>
+     </ul>
+</div>
+
+<!-- Results Cards -->
+<div class="results">
+
+     <div ng-repeat="event in events" class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" 
+                    ng-src="{{ event.flyer }}"
+                    ng-click="openInfoWindow(event.id)">
+          </div>
+          <div class="card-content">
+               <span class="card-title activator">
+                    {{ event.name | characters:19:true }}
+                    <i class="material-icons right"> arrow_drop_up </i>
+               </span>
+               <span class="card-date"> {{ event.date | date:"short" }} </span>
+          </div>
+          <div class="card-reveal">
+               <span class="card-title grey-text text-darken-4">
+                    {{ event.name }}
+                    <i class="material-icons right"> close </i>
+               </span>
+               <p> {{ event.description }} </p>
+          </div>
+     </div>
+</div>

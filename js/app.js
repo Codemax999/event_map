@@ -1,0 +1,1 @@
+angular.module('mapvent', ['ui.materialize', 'mainMap', 'mapResults'])

@@ -1,0 +1,72 @@
+{"events": [
+     {
+          "id": 0,
+          "name": "Vans Warped Tour 2017",
+          "venue": "Perfect Vodka Amphitheater",
+          "date": 1499022000000,
+          "lat": 26.685438,
+          "lng": -80.187033,
+          "description": "The 2017 Vans Warped Tour presented by Journeys is coming through West Palm Beach on July 2nd!",
+          "flyer": "img/warpedFlyer.jpg"
+     },
+     {
+          "id": 1,
+          "name": "The Wailers",
+          "venue": "Respectable Street",
+          "date": 1495839600000,
+          "lat": 26.713223,
+          "lng": -80.056166,
+          "description": "Heroes Live Entertainment & RSC present The Wailers Performing Legend Album & Morewith special guests: Zander & Reggae Force Band",
+          "flyer": "img/wailersFlyer.jpg"
+     },
+     {
+          "id": 2,
+          "name": "The Dwarves and Richie Ramone",
+          "venue": "Propaganda",
+          "date": 1499216400000,
+          "lat": 26.615606,
+          "lng": -80.056214,
+          "description": "Legendary Punks The Dwarves and Richie Ramone of the Ramones will be coming to Propaganda along with Whiskey Walls and The Shakers",
+          "flyer": "img/dwarvesFlyer.jpg"
+     },
+     {
+          "id": 3,
+          "name": "Bacon Fest",
+          "venue": "Roger Dean Stadium",
+          "date": 1495303200000,
+          "lat": 26.891129,
+          "lng": -80.116017,
+          "description": "The Rotary Club of the Northern Palm Beaches, Roger Dean Stadium and the KVJ Show have teamed up to host BACONFEST! This family- fun, foodie event will celebrate all things bacon, beer and baseball.",
+          "flyer": "img/baconFlyer.jpg"
+     },
+     {
+          "id": 4,
+          "name": "Matisyahu",
+          "venue": "Abacoa Town Center Amphitheater",
+          "date": 1496008800000,
+          "lat": 26.889483,
+          "lng": -80.116599,
+          "description": "Beach Town Real Estate Presents: Matisyahu w/ Moska Project.",
+          "flyer": "img/matisyahuFlyer.jpg"
+     },
+     {
+          "id": 5,
+          "name": "Rebelution",
+          "venue": "Sunset Cove Amphitheater",
+          "date": 1501367400000,
+          "lat": 26.372377,
+          "lng": -80.237016,
+          "description": "The Good Vibes Summer Tour 2017 with special guest Nahko and Medicine for People, Collie Buddz, Hrie and DJ Mackle.",
+          "flyer": "img/rebelutionFlyer.png"
+     },
+     {
+          "id": 6,
+          "name": "Spred The Dub",
+          "venue": "E.R. Bradley's Saloon",
+          "date": 1496109600000,
+          "lat": 26.712647,
+          "lng": -80.049745,
+          "description": "The biggest Monday night reggae party get's bigger the last Monday of the month when The No Name Ska Band joins Spred The Dub at E.R. Bradley's Saloon!",
+          "flyer": "img/spredFlyer.jpg"
+     }
+]}

@@ -1,0 +1,64 @@
+/* Map Filter */
+.map-filter-wrap {
+     align-items: center;
+     display: flex;
+     height: 75px;
+}
+
+.filter-selector {
+     align-items: center;
+     background: white;
+     border-radius: 3px;
+     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1),
+          0 1px 5px 0 rgba(0, 0, 0, 0.1),
+          0 3px 1px -5px rgba(0, 0, 0, 0.1);
+     color: #3B3939;
+     display: flex;
+     height: 50px;
+     justify-content: space-around;
+     margin-left: 20px;
+     width: 200px;
+}
+
+/* Results */
+.results {
+     display: flex;
+     height: 275px;
+     overflow-y: scroll;
+     width: 100%;
+}
+
+
+/* Result Card */
+.results .card {
+     margin-left: 20px;
+     max-height: 225px;
+     min-height: 225px;
+     max-width: 275px;
+     min-width: 275px;
+     overflow-y: hidden;
+}
+
+.card-content {
+     background: white;
+     color: #3B3939;
+     padding: 5px !important;
+     position: absolute;
+     top: 154px;
+     width: 100%;
+     z-index: 2;
+}
+
+.card-content .card-title {
+     color: #3B3939;
+     font-size: 18px;
+     font-weight: 700;
+}
+
+.card-reveal {
+     z-index: 3;
+}
+
+.card-date {
+     font-weight: 300;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" ng-app="mapvent">
+<head>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title> Map </title>
+
+
+     <!-- [STYLES] -->
+     <!-- Favicon -->
+     <link href="/img/event-icon.svg" rel="shortcut icon">
+     <!-- Google Icon Font -->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Roboto Mono Font -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto%20Mono%3A300%2C400" rel="stylesheet">
+     <!-- Normalize -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+     <!-- Materialize CSS -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" rel="stylesheet">
+     <!-- Root --> 
+     <link href="css/style.css" rel="stylesheet">
+     <!-- Map -->
+     <link href="components/map/css/map.css"rel="stylesheet">
+     <!-- Results -->
+     <link href="components/results/css/results.css"rel="stylesheet">
+
+
+     <!-- [SCRIPTS] -->
+     <!-- JQuery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <!-- Angular -->
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+     <!-- Angular Materialize JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+     <!-- Materialize JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+     <!-- Google Maps -->
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMxldDV0j1yorNT3aUMbA9NYX7it0VdI4"></script>
+
+
+     <!-- [COMPONENTS] -->
+     <!-- Root -->
+     <script src="js/app.js"></script>
+     <!-- Map -->
+     <script src="components/map/js/map.js"></script>
+     <!-- Results -->
+     <script src="components/results/js/results.js"></script>
+
+
+     <!-- [SERVICES] -->
+     <!-- Map Markers -->
+     <script src="services/marker.js"></script>
+     <!-- Event Data -->
+     <script src="services/event.js"></script>
+
+
+     <!-- [FILTERS] -->
+     <!-- Truncate -->
+     <script src="filters/truncate.js"></script>
+
+</head>
+<body>
+
+     <!-- Page Wrap -->
+     <div class="page-wrap">
+
+          <!-- Map -->
+          <main-map ng-include="'components/map/map.html'"
+               class="map-wrap">
+          </main-map>
+
+          <!-- Map Results -->
+          <map-results ng-include="'components/results/results.html'"
+               ng-controller="ResultsCtrl"
+               class="results-wrap">
+          </map-results>
+     </div>
+
+</body>
+</html>
